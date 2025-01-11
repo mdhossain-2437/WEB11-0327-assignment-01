@@ -159,6 +159,9 @@ body{
   background-color: #c6e4d6;
   padding: 50px 25px;
   border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(84, 84, 84, 0.164);
+
 }
 
 .hero .hero-text {
@@ -227,6 +230,8 @@ body{
   padding:30px;
   flex:1;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(84, 84, 84, 0.164);
+
 }
 
 
@@ -320,6 +325,7 @@ body{
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 
 .news-item {
@@ -327,6 +333,8 @@ body{
   background-color: #fff;
   border-radius: 20px;
   padding:25px;
+  border: 1px solid rgba(84, 84, 84, 0.164);
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -351,7 +359,7 @@ body{
   margin-bottom: 10px;
 }
 .news-content .meta {
-  font-size: 0.9rem;
+  font-size: 15px;
   color: #888;
   margin-bottom: 15px;
 }
@@ -362,6 +370,85 @@ body{
   color: #555;
 }
 
+
+/* donation */
+
+
+.donate-container {
+  text-align: center;
+  padding:0px 40px;
+  margin: 0px 30px 10px 30px;
+}
+
+.donate-container h1 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.donate-container p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.donation-options {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 25px;
+  flex:1;
+  height: 125px;
+  margin-bottom: 20px;
+
+}
+
+.donation-card {
+  flex: 1 1 100px;
+  padding: 15px 10px;
+  background-color: #fff;
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+  text-align:center;
+  align-items: center;
+  border: 1px solid rgba(84, 84, 84, 0.164);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+}
+
+.donation-card:hover {
+  background-color: #d6f5e8;
+  border-color: #5cb85c;
+  transform: scale(1.05);
+}
+
+.other-amount {
+  margin:0px 40px 20px 40px;
+}
+
+.other-amount input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.other-amount input:focus {
+  border-color: #5cb85c;
+  transform: scale(1.05);
+  outline: none;
+}
+
+.other-amount input:hover{
+  border-color: #5cb85c;
+  transform: scale(1.05);
+  outline: none;
+}
 
 
 
