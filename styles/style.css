@@ -156,7 +156,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #c6e4d6;
+  background-color: rgb(198, 228, 214);
   padding: 50px 25px;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -278,7 +278,7 @@ body{
 }
 
 .card-green {
-  background-color: #e9f9ee;
+  background-color: rgb(198, 228, 214);
 }
 
 .card-green .button {
@@ -419,7 +419,7 @@ body{
 }
 
 .donation-card:hover {
-  background-color: #d6f5e8;
+  background-color: rgb(198, 228, 214);
   border-color: #5cb85c;
   transform: scale(1.05);
 }
@@ -450,6 +450,78 @@ body{
   outline: none;
 }
 
+/* challenges */
 
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter {
+  background-color: rgb(198, 228, 214);
+  border-radius: 10px;
+  text-align: center;
+  padding: 80px 50px;
+  margin: 30px 0px;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter h1 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: bold;
+  color: #000;
+}
+
+.newsletter p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.newsletter .input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  padding:0px 215px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  flex: 1;
+  font-size: 24px;
+}
+
+.newsletter input:focus{
+  border-color: #5cb85c;
+  transform: scale(1.05);
+  outline: none;
+}
+
+.newsletter input:hover{
+  border-color: #5cb85c;
+  transform: scale(1.05);
+  outline: none;
+
+}
+
+.newsletter .btn {
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.newsletter small {
+  font-size: 16px;
+  color: #666;
+}
 
 
