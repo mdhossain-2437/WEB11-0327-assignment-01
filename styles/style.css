@@ -152,7 +152,7 @@ body{
   align-items: center;
   justify-content: space-between;
   background-color: #c6e4d6;
-  padding: 50px 20px;
+  padding: 50px 25px;
   border-radius: 20px;
 }
 
@@ -192,3 +192,104 @@ body{
   background-color: #005500;
   transform: scale(1.05);
 }
+
+/* vision */
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.text{
+  font-size: 18px;
+  color: #131313;
+}
+
+.cards {
+  padding: 25px 0px;
+  display: flex;
+  justify-content:space-between;
+  align-items: stretch;
+  gap: 25px;
+}
+
+.card{
+  background-color: white;
+  border-radius: 20px;
+  padding:30px;
+  flex:1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.card h3{
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 17px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.card .button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.card .button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.card-blue {
+  background-color: #eaf3ff;
+}
+
+.card-blue .button {
+  background-color: #007bff;
+}
+
+.card-blue .button:hover {
+  background-color: #0056b3;
+}
+
+.card-green {
+  background-color: #e9f9ee;
+}
+
+.card-green .button {
+  background-color: #28a745;
+}
+
+.card-green .button:hover {
+  background-color: #1e7a33;
+}
+
+.card-yellow {
+  background-color: #fff7e6;
+}
+
+.card-yellow .button {
+  background-color: #ffa807;
+}
+
+.card-yellow .button:hover {
+  background-color: #d59d01;
+}
+
+
+
+
