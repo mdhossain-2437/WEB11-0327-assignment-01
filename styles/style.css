@@ -200,9 +200,8 @@
 /* vision */
 
 .title {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: bold;
-  padding-bottom: 5px;
   padding-top: 10px;
 }
 
@@ -226,9 +225,13 @@
   flex:1;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(84, 84, 84, 0.164);
-
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
 
 .card img {
   width: 50px;
@@ -527,6 +530,7 @@ footer{
   padding: 20px 30px;
   border: 1px solid rgba(84, 84, 84, 0.164);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
 .quote-section .quote{
@@ -548,7 +552,7 @@ footer{
 .author {
   margin-top: 20px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight:900;
   color: #333;
 }
 
@@ -584,4 +588,53 @@ footer{
 .social-icons img {
   width: 24px;
   height: 24px;
+}
+
+/* pillar */
+
+.pillars h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.pillar-cards {
+  padding: 15px 0px;
+  display: flex;
+  justify-content:space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.pillar-cards.card{
+  background-color: white;
+  border-radius: 20px;
+  padding:30px;
+  flex:1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(84, 84, 84, 0.164);
+
+}
+
+
+.pillar-cards img {
+  width: 50px;
+  margin-bottom: 3px;
+}
+
+.pillar-cards h3{
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.pillar-cards p{
+  font-size: 17px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.p-card:hover {
+  background-color: rgb(198, 228, 214);
+  border-color: #5cb85c;
+  transform: scale(1.05);
 }
